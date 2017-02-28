@@ -1276,6 +1276,7 @@ Wordt gebruikt door de meeste (95%) Amsterdamse basisscholen.</documentation>
       <element xsi:type="archimate:ApplicationComponent" id="0c140688" name="Beveiligde site">
         <documentation>Beveiligde omgeving van DUO, bedoeld voor scholen en voor 'uitvoerende instanties', per browser te bereiken via https://zakelijk.duo.nl/zp. Binnen de 'Beveiligde site' bevinden zich het Digitaal Verzuimloket, het Vrijstellingenregister, </documentation>
       </element>
+      <element xsi:type="archimate:ApplicationComponent" id="2c23d3ff" name="Access OHV DSD"/>
     </folder>
     <folder name="Data objecten volgens BRIN / DUO" id="f43f6cf6">
       <element xsi:type="archimate:DataObject" id="f7651e0e" name="Onderwijsorganisatie">
@@ -1911,6 +1912,12 @@ Code 85 is speciaal voor alle vormen van onderwijs.</documentation>
     <element xsi:type="archimate:AssociationRelationship" id="55f3f0d8" source="be5bd0ff" target="f7bfe534"/>
     <element xsi:type="archimate:SpecialisationRelationship" id="25c36de8" source="d4c7ab8a" target="f7bfe534"/>
     <element xsi:type="archimate:AggregationRelationship" id="e52f7139" source="bd0d1d60" target="1832d109"/>
+    <element xsi:type="archimate:UsedByRelationship" id="810fecce" source="d0fbf4e6" target="81d7c25f"/>
+    <element xsi:type="archimate:UsedByRelationship" id="63b55952" source="010d7adb" target="013ddfb5"/>
+    <element xsi:type="archimate:UsedByRelationship" id="bc8a86a5" source="fc0db4ca" target="ebf4fc02"/>
+    <element xsi:type="archimate:UsedByRelationship" id="e4bfcb98" source="29680618" target="6ca248aa"/>
+    <element xsi:type="archimate:UsedByRelationship" id="c564195e" source="7be29e58" target="15283c5e"/>
+    <element xsi:type="archimate:UsedByRelationship" id="b056fc55" source="2c23d3ff" target="23b91914"/>
   </folder>
   <folder name="Views" id="8eca8925" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="1093def7" name="Overview Onderwijs huidige situatie A'dam">
@@ -5317,6 +5324,58 @@ Versie 20160202</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="e2d1ecd2" textAlignment="2" targetConnections="87260454 d218df6b" archimateElement="e56e232b">
         <bounds x="720" y="256" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="f3c1dcb9" name="Belangrijkste verantwoordelijkheden + IV, huidige situatie 2017">
+      <child xsi:type="archimate:DiagramObject" id="6fab723b" textAlignment="2" archimateElement="7be29e58">
+        <bounds x="792" y="168" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="0989585f" source="6fab723b" target="594dce59" relationship="c564195e"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="28bc4f50" textAlignment="2" archimateElement="fc0db4ca">
+        <bounds x="492" y="168" width="120" height="76"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5de6a49c" source="28bc4f50" target="082abfa4" relationship="bc8a86a5"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="101aa24b" textAlignment="2" archimateElement="010d7adb">
+        <bounds x="348" y="168" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b09a1e6d" source="101aa24b" target="be5536e3" relationship="63b55952"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="cf3bb65f" textAlignment="2" archimateElement="29680618">
+        <bounds x="642" y="168" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="796497bb" source="cf3bb65f" target="37575a00" relationship="e4bfcb98"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ec328477" textAlignment="2" archimateElement="d0fbf4e6">
+        <bounds x="60" y="168" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4d448cbd" source="ec328477" target="e6ded77c" relationship="810fecce"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="e6ded77c" textAlignment="2" targetConnections="4d448cbd" archimateElement="81d7c25f">
+        <bounds x="60" y="72" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="7dc73a4e" textAlignment="2" targetConnections="462f2bc0" archimateElement="23b91914">
+        <bounds x="204" y="72" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="be5536e3" textAlignment="2" targetConnections="b09a1e6d" archimateElement="013ddfb5">
+        <bounds x="348" y="72" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="082abfa4" textAlignment="2" targetConnections="5de6a49c" archimateElement="ebf4fc02">
+        <bounds x="492" y="72" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="37575a00" textAlignment="2" targetConnections="796497bb" archimateElement="6ca248aa">
+        <bounds x="642" y="72" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="594dce59" textAlignment="2" targetConnections="0989585f" archimateElement="15283c5e">
+        <bounds x="792" y="72" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:Note" id="17c16d73" textAlignment="1">
+        <bounds x="936" y="83" width="199" height="33"/>
+        <content>Verantwoordelijkheid / taakgebied</content>
+      </child>
+      <child xsi:type="archimate:Note" id="2106284d" textAlignment="1">
+        <bounds x="936" y="179" width="199" height="33"/>
+        <content>Primair taaksysteem</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="53fc5de7" textAlignment="2" archimateElement="2c23d3ff">
+        <bounds x="204" y="168" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="462f2bc0" source="53fc5de7" target="7dc73a4e" relationship="b056fc55"/>
       </child>
     </element>
   </folder>
