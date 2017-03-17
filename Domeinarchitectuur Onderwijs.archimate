@@ -969,6 +969,8 @@ De papieren formulieren gaan door naar afdeling Leerlingenvervoer. De wijziginge
         <element xsi:type="archimate:BusinessProcess" id="4bde1180" name="Leerlingonderzoek">
           <documentation>Bij steekproef (representatie van school, een aantal klassen) wordt er voor een aantal leerlingen onderzocht hoe het verzuim afgehandeld is. Voor die leerlingen wordt de informatie in ERISA (Verzuimhistorie van de leerlingen bij gemeente gerapporteerd) vergeleken met de informatie (dezelfde leerlingen met verzuimhistorie) in de schooladministratie.</documentation>
         </element>
+        <element xsi:type="archimate:BusinessProcess" id="763d5dde" name="Controle en onderzoek"/>
+        <element xsi:type="archimate:Product" id="b3a597d7" name="Jaarrapportage"/>
       </folder>
       <folder name="VVE" id="cf16bb3f">
         <element xsi:type="archimate:BusinessProcess" id="fe086487" name="Subsidie-aanvraag VVE">
@@ -1024,6 +1026,8 @@ Via de VLOA website. Digitaal.&#xD;
         <element xsi:type="archimate:BusinessProcess" id="ed550518" name="Begeleiden"/>
         <element xsi:type="archimate:BusinessProcess" id="36ae6292" name="Inroosteren"/>
         <element xsi:type="archimate:BusinessProcess" id="7c110088" name="Bevestiging"/>
+        <element xsi:type="archimate:BusinessProcess" id="a60e9afb" name="Beheer en onderhoud"/>
+        <element xsi:type="archimate:BusinessProcess" id="833f7148" name="Organisatie schooltuin-, natuur- en milieulessen"/>
       </folder>
       <folder name="Leerplicht" id="c300e57c">
         <element xsi:type="archimate:BusinessProcess" id="d7a709ff" name="Verzuim >= 16 uur"/>
@@ -1942,6 +1946,10 @@ Code 85 is speciaal voor alle vormen van onderwijs.</documentation>
     <element xsi:type="archimate:AggregationRelationship" id="2845b47e" source="ebf4fc02" target="b89cecf8"/>
     <element xsi:type="archimate:AggregationRelationship" id="0aacf28e" source="ebf4fc02" target="ae7e8d9b"/>
     <element xsi:type="archimate:AggregationRelationship" id="71d8f7fc" source="ebf4fc02" target="8e258824"/>
+    <element xsi:type="archimate:AggregationRelationship" id="8865c583" source="6ca248aa" target="a60e9afb"/>
+    <element xsi:type="archimate:AggregationRelationship" id="f8bc464c" source="6ca248aa" target="833f7148"/>
+    <element xsi:type="archimate:AggregationRelationship" id="a599b7d2" source="15283c5e" target="beb02ebd"/>
+    <element xsi:type="archimate:AggregationRelationship" id="18c2d1dc" source="15283c5e" target="763d5dde"/>
   </folder>
   <folder name="Views" id="8eca8925" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="1093def7" name="Overview Onderwijs huidige situatie A'dam">
@@ -5352,7 +5360,7 @@ Versie 20160202</content>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="f3c1dcb9" name="Belangrijkste verantwoordelijkheden + IV, huidige situatie 2017">
       <child xsi:type="archimate:DiagramObject" id="6fab723b" textAlignment="2" archimateElement="7be29e58">
-        <bounds x="852" y="384" width="120" height="55"/>
+        <bounds x="888" y="384" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="0989585f" source="6fab723b" target="594dce59" relationship="c564195e"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="28bc4f50" textAlignment="2" archimateElement="fc0db4ca">
@@ -5364,7 +5372,7 @@ Versie 20160202</content>
         <sourceConnection xsi:type="archimate:Connection" id="b09a1e6d" source="101aa24b" target="be5536e3" relationship="63b55952"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="cf3bb65f" textAlignment="2" archimateElement="29680618">
-        <bounds x="702" y="384" width="120" height="55"/>
+        <bounds x="721" y="384" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="796497bb" source="cf3bb65f" target="37575a00" relationship="e4bfcb98"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="ec328477" textAlignment="2" archimateElement="d0fbf4e6">
@@ -5420,17 +5428,30 @@ Versie 20160202</content>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="37575a00" textAlignment="2" targetConnections="796497bb" archimateElement="6ca248aa">
-        <bounds x="702" y="72" width="120" height="55"/>
+        <bounds x="708" y="12" width="145" height="349"/>
+        <child xsi:type="archimate:DiagramObject" id="a9e11088" textAlignment="2" archimateElement="a60e9afb">
+          <bounds x="12" y="60" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="65349c95" textAlignment="2" archimateElement="833f7148">
+          <bounds x="12" y="132" width="120" height="73"/>
+        </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="594dce59" textAlignment="2" targetConnections="0989585f" archimateElement="15283c5e">
-        <bounds x="852" y="72" width="120" height="55"/>
+        <bounds x="876" y="12" width="145" height="349"/>
+        <child xsi:type="archimate:DiagramObject" id="4b432820" textAlignment="2" archimateElement="763d5dde">
+          <bounds x="12" y="60" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="bfe362ac" textAlignment="2" archimateElement="b3a597d7">
+          <bounds x="12" y="132" width="120" height="55"/>
+        </child>
       </child>
       <child xsi:type="archimate:Note" id="17c16d73" textAlignment="1">
-        <bounds x="996" y="83" width="199" height="33"/>
-        <content>Verantwoordelijkheid / taakgebied</content>
+        <bounds x="1032" y="83" width="121" height="62"/>
+        <content>Verantwoordelijkheid / taakgebied / product&#xD;
+</content>
       </child>
       <child xsi:type="archimate:Note" id="2106284d" textAlignment="1">
-        <bounds x="996" y="395" width="199" height="33"/>
+        <bounds x="1032" y="395" width="121" height="26"/>
         <content>Primair taaksysteem</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="53fc5de7" textAlignment="2" archimateElement="2c23d3ff">
