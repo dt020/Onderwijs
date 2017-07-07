@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Domein Onderwijs 020 Huidige situatie" id="811a44f0" version="3.1.1">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Domein Onderwijs 020" id="811a44f0" version="3.1.1">
   <folder name="Business" id="108440ee" type="business">
     <folder name="Gemeentelijke taken" id="60e461d0">
       <folder name="Beleidsvorming" id="486d6884">
@@ -87,11 +87,10 @@ Met als subtaken:&#xD;
 - Vergunningverlening&#xD;
 - Handhaving (door Bureau Handhaving Kinderopvang)</documentation>
       </element>
-      <element xsi:type="archimate:BusinessFunction" id="15283c5e" name="Toezicht verzuimbeleid scholen">
+      <element xsi:type="archimate:BusinessFunction" id="15283c5e" name="Toezicht verzuimbeleid">
         <documentation>Deze taak is het gevolg van een mandatering van de Inspectie van dit Toezicht naar 4 grote gemeenten. De leerplichtconsulenten doen onderzoeken, schoolbezoeken en maken rapporten.&#xD;
 &#xD;
 De werkwijze staat beschreven in de Samenwerkingsovereenkomst: http://www.onderwijsinspectie.nl/binaries/content/assets/Actueel_nieuwsberichten/2011/samenwerkingsovereenkomst+Amsterdam+020211.pdf.&#xD;
-&#xD;
 </documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" id="9fa323b3" name="Volwasseneneducatie">
@@ -345,7 +344,7 @@ Zie http://www.swvamsterdamdiemen.nl/uploads/Bestanden/Ondersteuningsplan%20SWV%
       <element xsi:type="archimate:BusinessService" id="e956eeb6" name="Dichtst-bijzijnde scholen">
         <documentation>Op basis van een grote tabel gemaakt door OIS met woonadressen, dichtstbijzijnde 8 scholen en loopafstanden.</documentation>
       </element>
-      <element xsi:type="archimate:Product" id="3b2de077" name="Jeugdmonitor rapportages">
+      <element xsi:type="archimate:Product" id="3b2de077" name="Jeugdmonitor Onderwijs">
         <documentation>Ook met de Jeugdmonitor (oftewel met het Business Objects datawarehouse systeem) kan (deels) in de monitoring-informatiebehoefte voorzien worden. Er zijn recentelijk 9 'beleidsinformatieprodukten' in Business Objects gerealiseerd. Voornamelijk over VO. Welke zijn dat???</documentation>
       </element>
       <element xsi:type="archimate:Product" id="baeb59f6" name="Vensters op het PO &amp; VO">
@@ -393,13 +392,17 @@ Zie http://www.amsterdam.nl/onderwijs-jeugd/.</documentation>
       <element xsi:type="archimate:Product" id="841c5789" name="Website Kwaliteit Kinderopvang">
         <documentation>Gericht op de houders: http://amsterdam.nl/kwaliteitkinderopvang</documentation>
       </element>
-      <element xsi:type="archimate:Product" id="383cb0f5" name="NME Gids"/>
+      <element xsi:type="archimate:Product" id="383cb0f5" name="NME-Gids Amsterdam"/>
       <element xsi:type="archimate:Product" id="2b72bef0" name="Schoolwijzer"/>
       <element xsi:type="archimate:Product" id="e1d3c7cb" name="VSV-meter"/>
-      <element xsi:type="archimate:Product" id="b2ecce28" name="Jeugdloopbaanmonitor"/>
-      <element xsi:type="archimate:Product" id="56c6a096" name="Website Kinderopvang Schoolwijzer">
-        <documentation>Zie https://schoolwijzer.amsterdam.nl/nl/vve.</documentation>
+      <element xsi:type="archimate:Product" id="b2ecce28" name="Jeugdloop-baanmonitor">
+        <documentation>Volgens het Aanvalsplan Jeugdwerkloosheid 2015 – 2018 (https://www.gemeentenvandetoekomst.nl/wp-content/uploads/2016/12/150304131042_Amsterdam-zet-fors-in-op-bestrijding-jeugdwerkloosheid-110506.pdf): &quot;Op dit moment schatten we dat van onze ambitie 5.250 jongeren naar werk of school te begeleiden er 4.000 uitstromen naar werk en 1.250 weer terug naar school gaan (of naar een leerwerktraject). &#xD;
+Om de voortgang te volgen, houden we sinds 1 januari 2014 alle inzet om de jeugdwerkloosheid aan te pakken bij in de Jeugdloopbaanmonitor. Maandelijks verzamelen we - op basis van de BSN-nummers van de jongeren - kwalitatieve en kwantitatieve informatie van zowel de reguliere inzet, als van de tijdelijke projecten en initiatieven. Hierdoor weten we welke jongeren, met welke inzet instromen in het onderwijs of uitstromen naar werk. Op korte termijn helpt dit om bij te sturen en waar nodig te intensiveren. Op de langere termijn helpt deze monitor om inzicht te krijgen in de effectiviteit van de verschillende interventies. Het is mogelijk de bestanden van de verschillende gemeentelijke onderdelen en de gegevens van deze monitor met elkaar te vergelijken, waardoor we jongeren gericht, eenmalig kunnen bedienen in hun zoektocht naar school of werk.&quot;</documentation>
       </element>
+      <element xsi:type="archimate:Product" id="56c6a096" name="Kinderopvang Schoolwijzer">
+        <documentation>Zie https://schoolwijzer.amsterdam.nl/nl/vve. Onderdeel van de Schoolwijzer</documentation>
+      </element>
+      <element xsi:type="archimate:Product" id="93344fb0" name="Beleids-onderzoek"/>
     </folder>
     <folder name="Actoren en Rollen" id="321547f0">
       <element xsi:type="archimate:BusinessRole" id="4caaa846" name="Schoolbestuur">
@@ -821,8 +824,7 @@ In het geval van leerlingenvervoer:&#xD;
           <documentation>Frequent (variërend van maandelijks tot eens in de vier jaar) is er overleg/contact met schoolbestuur, daarin komt ook eventuele huisvestingsvraag aan bod.</documentation>
         </element>
         <element xsi:type="archimate:BusinessObject" id="0e2c14b0" name="Huisvestingsvoorziening"/>
-        <element xsi:type="archimate:BusinessProcess" id="5671fb93" name="Nieuwbouw"/>
-        <element xsi:type="archimate:BusinessProcess" id="cf264023" name="Verbouwing"/>
+        <element xsi:type="archimate:BusinessProcess" id="5671fb93" name="Organiseren nieuwbouw en verbouwing"/>
       </folder>
       <folder name="Passend Onderwijs, Leerplicht, Jeugdhulp" id="3124d672">
         <element xsi:type="archimate:BusinessProcess" id="2c5230bb" name="Opstellen Ondersteuningsplan"/>
@@ -853,6 +855,7 @@ In het geval van leerlingenvervoer:&#xD;
         <element xsi:type="archimate:BusinessProcess" id="97b026f3" name="Evalueren"/>
         <element xsi:type="archimate:BusinessProcess" id="5d869c07" name="Verbeteren"/>
         <element xsi:type="archimate:BusinessProcess" id="f060ddba" name="Subsidie verlenen"/>
+        <element xsi:type="archimate:BusinessProcess" id="d4f1fb84" name="Evalueren en ontwikkelen"/>
       </folder>
       <folder name="Vrije Schoolkeuze" id="d85953e8">
         <element xsi:type="archimate:BusinessProcess" id="f648237a" name="Maken Schoolwijzer"/>
@@ -919,7 +922,7 @@ De papieren formulieren gaan door naar afdeling Leerlingenvervoer. De wijziginge
         <element xsi:type="archimate:BusinessProcess" id="d31d317d" name="Abonnement laden">
           <documentation>Door de leerling op de persoonlijke OV-Chipkaart.</documentation>
         </element>
-        <element xsi:type="archimate:BusinessProcess" id="a317687c" name="Voorziening toekennen"/>
+        <element xsi:type="archimate:BusinessProcess" id="a317687c" name="Voorziening verlenen"/>
         <element xsi:type="archimate:BusinessProcess" id="88948f5b" name="Beheren leveranciers (-contracten)"/>
       </folder>
       <folder name="Lerarenagenda" id="f1d0c1ae">
@@ -980,7 +983,7 @@ De papieren formulieren gaan door naar afdeling Leerlingenvervoer. De wijziginge
         <element xsi:type="archimate:BusinessProcess" id="4bde1180" name="Leerlingonderzoek">
           <documentation>Bij steekproef (representatie van school, een aantal klassen) wordt er voor een aantal leerlingen onderzocht hoe het verzuim afgehandeld is. Voor die leerlingen wordt de informatie in ERISA (Verzuimhistorie van de leerlingen bij gemeente gerapporteerd) vergeleken met de informatie (dezelfde leerlingen met verzuimhistorie) in de schooladministratie.</documentation>
         </element>
-        <element xsi:type="archimate:BusinessProcess" id="763d5dde" name="Controle en onderzoek"/>
+        <element xsi:type="archimate:BusinessProcess" id="763d5dde" name="Controleren en onderzoeken"/>
         <element xsi:type="archimate:Product" id="b3a597d7" name="Verzuimbeleid in beeld"/>
       </folder>
       <folder name="VVE" id="cf16bb3f">
@@ -1010,7 +1013,7 @@ Via de VLOA website. Digitaal.&#xD;
         </element>
         <element xsi:type="archimate:BusinessObject" id="065ea69c" name="VVE-Erkenning"/>
         <element xsi:type="archimate:BusinessProcess" id="8e258824" name="Erkennen voorschool"/>
-        <element xsi:type="archimate:BusinessProcess" id="3aafeaf0" name="Optimaliseren doelgroepbereik"/>
+        <element xsi:type="archimate:BusinessProcess" id="3aafeaf0" name="Optimaliseren doelgroep-bereik"/>
       </folder>
       <folder name="MBO-agenda" id="fcd15e18">
         <element xsi:type="archimate:BusinessProcess" id="29d55415" name="Projectplan maken"/>
@@ -1068,10 +1071,14 @@ Via de VLOA website. Digitaal.&#xD;
         <element xsi:type="archimate:BusinessProcess" id="e5d3ec00" name="Signalering vanuit BRP naar LPA">
           <documentation>Gaat dit in de praktijk echt zo? Stuurt RVE Basisinformatie dit soort signalen naar ERISA?</documentation>
         </element>
-        <element xsi:type="archimate:BusinessProcess" id="be61b5b5" name="Opvolgen verzuim en uitval"/>
+        <element xsi:type="archimate:BusinessProcess" id="be61b5b5" name="Opvolgen schoolverzuim leerplichtigen (po-so-vo)"/>
         <element xsi:type="archimate:BusinessProcess" id="547dc6af" name="Toezicht verzuimbeleid"/>
         <element xsi:type="archimate:BusinessProcess" id="08664566" name="RMC VSV"/>
         <element xsi:type="archimate:BusinessProcess" id="f4f8d0b6" name="Amsterdamse Aanval op Schooluitval"/>
+        <element xsi:type="archimate:BusinessProcess" id="8f6ad1bd" name="Behandelen beroep vrijstelling leerplicht"/>
+        <element xsi:type="archimate:BusinessProcess" id="75bd277a" name="Opvolgen absoluut verzuim"/>
+        <element xsi:type="archimate:BusinessProcess" id="a2164c84" name="Opvolgen schoolverzuim mbo"/>
+        <element xsi:type="archimate:BusinessProcess" id="6b6119d4" name="Opvolgen voortijdig schoolverlaten"/>
       </folder>
       <folder name="Events" id="fc358571">
         <element xsi:type="archimate:BusinessEvent" id="4ecc047b" name="Jaarlijks"/>
@@ -1303,9 +1310,13 @@ Wordt gebruikt door de meeste (95%) Amsterdamse basisscholen.</documentation>
       <element xsi:type="archimate:ApplicationComponent" id="0c140688" name="Beveiligde site">
         <documentation>Beveiligde omgeving van DUO, bedoeld voor scholen en voor 'uitvoerende instanties', per browser te bereiken via https://zakelijk.duo.nl/zp. Binnen de 'Beveiligde site' bevinden zich het Digitaal Verzuimloket, het Vrijstellingenregister, </documentation>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" id="2c23d3ff" name="Digitaal School Dossier 1.0"/>
-      <element xsi:type="archimate:ApplicationComponent" id="2622b9da" name="thko.nl">
-        <documentation>Toezicht &amp; Handhaving Kinderopvang, webapplicatie gemaakt door de GGD Amsterdam, met de inspectierapporten van de kinderdagverblijven, gemaakt door de GGD.</documentation>
+      <element xsi:type="archimate:ApplicationComponent" id="2c23d3ff" name="Digitaal School Dossier"/>
+      <element xsi:type="archimate:ApplicationComponent" id="2622b9da" name="THKO">
+        <documentation>Toezicht &amp; Handhaving Kinderopvang, webapplicatie gemaakt door de GGD Amsterdam, met de inspectierapporten van de kinderdagverblijven, gemaakt door de GGD, te bereiken via https://thko.nl/.</documentation>
+      </element>
+      <element xsi:type="archimate:ApplicationComponent" id="51c7b32b" name="Subsidiebeheer-systeem"/>
+      <element xsi:type="archimate:ApplicationComponent" id="2d75d460" name="Onderwijs-subsidies portaal">
+        <documentation>Webapplicatie van GRRR, te bereiken via https://onderwijssubsidies.amsterdam, bedoeld voor scholen en besturen, om de verschillende subsidies te kunnen aanvragen. De applicatie bevat ook webformulieren voor digitale aanvragen. Maar ook een goed overzicht over alle scholen.</documentation>
       </element>
     </folder>
     <folder name="Data objecten volgens BRIN / DUO" id="f43f6cf6">
@@ -1459,12 +1470,18 @@ Code 85 is speciaal voor alle vormen van onderwijs.</documentation>
       <element xsi:type="archimate:DataObject" id="71edce0a" name="Verzuimmelding"/>
       <element xsi:type="archimate:DataObject" id="f562fef5" name="Verzuimbehandeling"/>
     </folder>
-    <element xsi:type="archimate:ApplicationComponent" id="5602444a" name="Jeugdmonitor Onderwijs"/>
   </folder>
   <folder name="Technology" id="79eae850" type="technology"/>
   <folder name="Motivation" id="913c568a" type="motivation">
     <element xsi:type="archimate:Driver" id="db31d0cc" name="Aanpak taalachterstanden"/>
     <element xsi:type="archimate:Driver" id="cc4b8e5d" name="Bestrijden onderwijsachterstanden"/>
+    <element xsi:type="archimate:Goal" id="a015a0ef" name="Meer jongeren halen een diploma">
+      <documentation>Alle kinderen en jongeren doorlopen de schoolloopbaan die past bij hun keuze en capaciteiten en kunnen in Amsterdam rekenen op zo goed mogelijk onderwijs&#xD;
+</documentation>
+    </element>
+    <element xsi:type="archimate:Goal" id="ddfd97d7" name="Meer jongeren stromen de arbeidsmarkt op">
+      <documentation>Jongeren vinden een bij hun capaciteiten passende aansluiting op de arbeidsmarkt</documentation>
+    </element>
   </folder>
   <folder name="Implementation &amp; Migration" id="38cbeb25" type="implementation_migration"/>
   <folder name="Connectors" id="e407d23a" type="connectors"/>
@@ -1953,7 +1970,6 @@ Code 85 is speciaal voor alle vormen van onderwijs.</documentation>
     <element xsi:type="archimate:AggregationRelationship" id="ed53c2af" source="81d7c25f" target="88948f5b"/>
     <element xsi:type="archimate:AggregationRelationship" id="97d43e3c" source="23b91914" target="fa3b25b0"/>
     <element xsi:type="archimate:AggregationRelationship" id="c4717bfb" source="23b91914" target="5671fb93"/>
-    <element xsi:type="archimate:AggregationRelationship" id="ef6d2440" source="23b91914" target="cf264023"/>
     <element xsi:type="archimate:AggregationRelationship" id="81b14e0d" source="013ddfb5" target="be61b5b5"/>
     <element xsi:type="archimate:AggregationRelationship" id="5ce73aa7" source="013ddfb5" target="547dc6af"/>
     <element xsi:type="archimate:AggregationRelationship" id="e6120447" source="013ddfb5" target="08664566"/>
@@ -1967,12 +1983,22 @@ Code 85 is speciaal voor alle vormen van onderwijs.</documentation>
     <element xsi:type="archimate:AggregationRelationship" id="91bb960b" source="8ecb9db5" target="f060ddba"/>
     <element xsi:type="archimate:AggregationRelationship" id="b5027128" source="ebf4fc02" target="f060ddba"/>
     <element xsi:type="archimate:AggregationRelationship" id="e3cbcf65" source="6ce1594a" target="9aefe314"/>
-    <element xsi:type="archimate:UsedByRelationship" id="d84c75f4" source="e1d3c7cb" target="8ecb9db5"/>
     <element xsi:type="archimate:AggregationRelationship" id="993f2eb3" source="013ddfb5" target="5b151a81"/>
     <element xsi:type="archimate:AggregationRelationship" id="ca2de1ff" source="013ddfb5" target="94f54476"/>
     <element xsi:type="archimate:AggregationRelationship" id="b87babf4" source="d2bece66" target="56c6a096"/>
     <element xsi:type="archimate:UsedByRelationship" id="1d18a316" source="2622b9da" target="6ce1594a"/>
     <element xsi:type="archimate:AggregationRelationship" id="559e6f76" source="ebf4fc02" target="3aafeaf0"/>
+    <element xsi:type="archimate:AggregationRelationship" id="3c36e485" source="5b151a81" target="be61b5b5"/>
+    <element xsi:type="archimate:AggregationRelationship" id="e26b375d" source="5b151a81" target="8f6ad1bd"/>
+    <element xsi:type="archimate:AggregationRelationship" id="22bc96b1" source="5b151a81" target="75bd277a"/>
+    <element xsi:type="archimate:AggregationRelationship" id="a314de7d" source="94f54476" target="a2164c84"/>
+    <element xsi:type="archimate:AggregationRelationship" id="f5c7f9fa" source="94f54476" target="6b6119d4"/>
+    <element xsi:type="archimate:UsedByRelationship" id="a3700bf1" source="2c23d3ff" target="8ecb9db5"/>
+    <element xsi:type="archimate:UsedByRelationship" id="710670d6" source="51c7b32b" target="f060ddba"/>
+    <element xsi:type="archimate:AggregationRelationship" id="3be29539" source="8ecb9db5" target="d4f1fb84"/>
+    <element xsi:type="archimate:UsedByRelationship" id="3309bd18" source="2d75d460" target="f060ddba"/>
+    <element xsi:type="archimate:AggregationRelationship" id="7056b587" source="3b2de077" target="b2ecce28"/>
+    <element xsi:type="archimate:AggregationRelationship" id="b3955625" source="3b2de077" target="e1d3c7cb"/>
   </folder>
   <folder name="Views" id="8eca8925" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="1093def7" name="Overview Onderwijs huidige situatie A'dam">
@@ -5383,135 +5409,173 @@ Versie 20160202</content>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="f3c1dcb9" name="Belangrijkste verantwoordelijkheden + IV, huidige situatie 2017">
       <child xsi:type="archimate:DiagramObject" id="6fab723b" textAlignment="2" archimateElement="7be29e58">
-        <bounds x="1056" y="384" width="120" height="55"/>
+        <bounds x="1542" y="444" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="0989585f" source="6fab723b" target="594dce59" relationship="c564195e"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="28bc4f50" textAlignment="2" archimateElement="fc0db4ca">
-        <bounds x="204" y="384" width="120" height="76"/>
+        <bounds x="198" y="423" width="120" height="76"/>
         <sourceConnection xsi:type="archimate:Connection" id="5de6a49c" source="28bc4f50" target="082abfa4" relationship="bc8a86a5"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="101aa24b" textAlignment="2" archimateElement="010d7adb">
-        <bounds x="792" y="384" width="120" height="55"/>
+        <bounds x="792" y="444" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="b09a1e6d" source="101aa24b" target="be5536e3" relationship="63b55952"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="cf3bb65f" textAlignment="2" archimateElement="29680618">
-        <bounds x="541" y="384" width="120" height="55"/>
+        <bounds x="534" y="444" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="796497bb" source="cf3bb65f" target="37575a00" relationship="e4bfcb98"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="ec328477" textAlignment="2" archimateElement="d0fbf4e6">
-        <bounds x="372" y="384" width="120" height="55"/>
+        <bounds x="365" y="444" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="4d448cbd" source="ec328477" target="e6ded77c" relationship="810fecce"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="e6ded77c" textAlignment="2" targetConnections="4d448cbd" archimateElement="81d7c25f">
-        <bounds x="360" y="12" width="144" height="349"/>
+        <bounds x="360" y="12" width="144" height="385"/>
         <child xsi:type="archimate:DiagramObject" id="671a3470" textAlignment="2" archimateElement="a317687c">
-          <bounds x="12" y="60" width="120" height="55"/>
+          <bounds x="12" y="96" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="bccbfe30" textAlignment="2" archimateElement="88948f5b">
-          <bounds x="12" y="132" width="120" height="55"/>
+          <bounds x="12" y="168" width="120" height="55"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="7dc73a4e" textAlignment="2" targetConnections="462f2bc0" archimateElement="23b91914">
-        <bounds x="1212" y="12" width="145" height="349"/>
+        <bounds x="1368" y="12" width="145" height="385"/>
         <child xsi:type="archimate:DiagramObject" id="fcba8064" textAlignment="2" archimateElement="87c6a1c6">
-          <bounds x="12" y="60" width="120" height="55"/>
+          <bounds x="12" y="96" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="c7ebb6ac" textAlignment="2" archimateElement="fa3b25b0">
-          <bounds x="12" y="132" width="120" height="55"/>
+          <bounds x="12" y="168" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="905d4d14" textAlignment="2" archimateElement="5671fb93">
-          <bounds x="12" y="204" width="120" height="55"/>
-        </child>
-        <child xsi:type="archimate:DiagramObject" id="78441437" textAlignment="2" archimateElement="cf264023">
-          <bounds x="12" y="276" width="120" height="55"/>
+          <bounds x="12" y="240" width="120" height="55"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="be5536e3" textAlignment="2" targetConnections="b09a1e6d" archimateElement="013ddfb5">
-        <bounds x="696" y="12" width="325" height="349"/>
+        <bounds x="696" y="12" width="325" height="385"/>
         <child xsi:type="archimate:DiagramObject" id="36a29d0f" textAlignment="2" archimateElement="5b151a81">
-          <bounds x="12" y="24" width="144" height="313"/>
+          <bounds x="12" y="24" width="144" height="349"/>
+          <child xsi:type="archimate:DiagramObject" id="3ea7b259" textAlignment="2" archimateElement="be61b5b5">
+            <bounds x="12" y="72" width="120" height="73"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="0bd004ce" textAlignment="2" archimateElement="8f6ad1bd">
+            <bounds x="12" y="156" width="120" height="73"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="13fb12b0" textAlignment="2" archimateElement="75bd277a">
+            <bounds x="12" y="240" width="120" height="55"/>
+          </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="01993146" textAlignment="2" archimateElement="94f54476">
-          <bounds x="168" y="24" width="144" height="313"/>
+          <bounds x="168" y="24" width="144" height="349"/>
+          <child xsi:type="archimate:DiagramObject" id="93f8bf8a" textAlignment="2" archimateElement="a2164c84">
+            <bounds x="12" y="72" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="425427a7" textAlignment="2" archimateElement="6b6119d4">
+            <bounds x="12" y="144" width="120" height="55"/>
+          </child>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="082abfa4" textAlignment="2" targetConnections="5de6a49c" archimateElement="ebf4fc02">
-        <bounds x="192" y="12" width="145" height="349"/>
+        <bounds x="192" y="12" width="145" height="385"/>
         <child xsi:type="archimate:DiagramObject" id="7eb9a22f" textAlignment="2" archimateElement="8e258824">
-          <bounds x="12" y="60" width="120" height="55"/>
+          <bounds x="12" y="96" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="380ef86e" textAlignment="2" archimateElement="f060ddba">
-          <bounds x="12" y="132" width="120" height="55"/>
+          <bounds x="12" y="168" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="5e5942e4" textAlignment="2" archimateElement="3aafeaf0">
-          <bounds x="12" y="204" width="120" height="55"/>
+          <bounds x="12" y="240" width="120" height="55"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="37575a00" textAlignment="2" targetConnections="796497bb" archimateElement="6ca248aa">
-        <bounds x="528" y="12" width="145" height="349"/>
+        <bounds x="528" y="12" width="145" height="385"/>
         <child xsi:type="archimate:DiagramObject" id="a9e11088" textAlignment="2" archimateElement="a60e9afb">
-          <bounds x="12" y="60" width="120" height="55"/>
+          <bounds x="12" y="96" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="65349c95" textAlignment="2" archimateElement="833f7148">
-          <bounds x="12" y="132" width="120" height="73"/>
+          <bounds x="12" y="168" width="120" height="73"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="7b1ffb4b" textAlignment="2" archimateElement="383cb0f5">
-          <bounds x="12" y="216" width="120" height="55"/>
+          <bounds x="12" y="252" width="120" height="55"/>
         </child>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="594dce59" textAlignment="2" targetConnections="0989585f" archimateElement="15283c5e">
-        <bounds x="1044" y="12" width="145" height="349"/>
+      <child xsi:type="archimate:DiagramObject" id="594dce59" fontColor="#808080" textAlignment="2" targetConnections="0989585f" fillColor="#e2e0b6" archimateElement="15283c5e">
+        <bounds x="1536" y="12" width="145" height="385"/>
         <child xsi:type="archimate:DiagramObject" id="4b432820" textAlignment="2" archimateElement="763d5dde">
-          <bounds x="12" y="60" width="120" height="55"/>
+          <bounds x="12" y="96" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="bfe362ac" textAlignment="2" archimateElement="b3a597d7">
-          <bounds x="12" y="132" width="120" height="55"/>
+          <bounds x="12" y="168" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:Note" id="1a9c20a0" textAlignment="1">
+          <bounds x="12" y="336" width="120" height="39"/>
+          <content>In afwachting van nieuwe wetgeving</content>
         </child>
       </child>
       <child xsi:type="archimate:Note" id="17c16d73" textAlignment="1">
-        <bounds x="1548" y="48" width="121" height="62"/>
+        <bounds x="1692" y="12" width="121" height="62"/>
         <content>Verantwoordelijkheid / taakgebied / product&#xD;
 </content>
       </child>
       <child xsi:type="archimate:Note" id="2106284d" textAlignment="1">
-        <bounds x="1548" y="360" width="121" height="26"/>
+        <bounds x="1685" y="444" width="121" height="26"/>
         <content>Primair taaksysteem</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="53fc5de7" textAlignment="2" archimateElement="2c23d3ff">
-        <bounds x="1225" y="384" width="120" height="55"/>
+        <bounds x="1265" y="444" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="462f2bc0" source="53fc5de7" target="7dc73a4e" relationship="b056fc55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="1974f68c" source="53fc5de7" target="4fdc8bfb" relationship="a3700bf1"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="4fdc8bfb" textAlignment="2" targetConnections="821c25f1" archimateElement="8ecb9db5">
-        <bounds x="1380" y="12" width="145" height="349"/>
-        <child xsi:type="archimate:DiagramObject" id="a022d4db" textAlignment="2" archimateElement="f060ddba">
-          <bounds x="12" y="60" width="120" height="55"/>
+      <child xsi:type="archimate:DiagramObject" id="4fdc8bfb" textAlignment="2" targetConnections="1974f68c" archimateElement="8ecb9db5">
+        <bounds x="1044" y="12" width="301" height="385"/>
+        <child xsi:type="archimate:DiagramObject" id="a022d4db" textAlignment="2" targetConnections="9e2eabb5 4b00c08e" archimateElement="f060ddba">
+          <bounds x="12" y="312" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="b0680fd5" textAlignment="2" archimateElement="2b72bef0">
-          <bounds x="12" y="132" width="120" height="55"/>
+          <bounds x="12" y="240" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="2921865c" textAlignment="2" targetConnections="a2f0e43e" archimateElement="b2ecce28">
+          <bounds x="168" y="168" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="9f00334e" textAlignment="2" targetConnections="69c82033" archimateElement="e1d3c7cb">
+          <bounds x="168" y="240" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="d1fb9d57" textAlignment="2" archimateElement="3b2de077">
+          <bounds x="12" y="168" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="a2f0e43e" source="d1fb9d57" target="2921865c" relationship="7056b587"/>
+          <sourceConnection xsi:type="archimate:Connection" id="69c82033" source="d1fb9d57" target="9f00334e" relationship="b3955625"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="a425999d" textAlignment="2" archimateElement="d4f1fb84">
+          <bounds x="12" y="96" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="d8bbca57" textAlignment="2" archimateElement="93344fb0">
+          <bounds x="168" y="96" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="bd55c318" textAlignment="2" archimateElement="ddfd97d7">
+          <bounds x="12" y="59" width="276" height="24"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="64631dfe" textAlignment="2" archimateElement="a015a0ef">
+          <bounds x="12" y="24" width="276" height="24"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="1d8f7b54" textAlignment="2" targetConnections="3c2533c6" archimateElement="6ce1594a">
-        <bounds x="24" y="12" width="144" height="349"/>
+        <bounds x="24" y="12" width="144" height="385"/>
         <child xsi:type="archimate:DiagramObject" id="26be4354" textAlignment="2" archimateElement="9aefe314">
-          <bounds x="12" y="60" width="120" height="55"/>
+          <bounds x="12" y="96" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="a911437e" textAlignment="2" archimateElement="56c6a096">
-          <bounds x="12" y="132" width="120" height="73"/>
+          <bounds x="12" y="168" width="120" height="55"/>
         </child>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="9f00334e" textAlignment="2" archimateElement="e1d3c7cb">
-        <bounds x="1393" y="384" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="821c25f1" source="9f00334e" target="4fdc8bfb" relationship="d84c75f4"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="31a7b1d8" textAlignment="2" archimateElement="5602444a">
-        <bounds x="1008" y="504" width="120" height="55"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="2921865c" textAlignment="2" archimateElement="b2ecce28">
-        <bounds x="1405" y="414" width="120" height="55"/>
-      </child>
       <child xsi:type="archimate:DiagramObject" id="f596ea67" textAlignment="2" archimateElement="2622b9da">
-        <bounds x="36" y="384" width="120" height="55"/>
+        <bounds x="29" y="444" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="3c2533c6" source="f596ea67" target="1d8f7b54" relationship="1d18a316"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8afaed36" textAlignment="2" archimateElement="51c7b32b">
+        <bounds x="1121" y="444" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="9e2eabb5" source="8afaed36" target="a022d4db" relationship="710670d6"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="51f8ac95" textAlignment="2" archimateElement="2d75d460">
+        <bounds x="977" y="444" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4b00c08e" source="51f8ac95" target="a022d4db" relationship="3309bd18"/>
       </child>
     </element>
   </folder>
@@ -5525,8 +5589,6 @@ Versie 20160202</content>
   <purpose>Deze domeinarchitectuur is bedoeld om overzicht te bieden op en inzicht te bieden in het gemeentelijke Onderwijs domein. De domeinarchitectuur bevat modellen en beschrijvingen van de huidige situatie van begin 2015. Behandeld worden de verschillende taken en verantwoordelijkheden van de afdeling Onderwijs van gemeente Amsterdam, de produkten en diensten van de gemeente aan burgers en scholen, de processen achter de taken, verantwoordelijkheden, produkten en diensten, en de benodigde informatievoorziening en infrastructuur.&#xD;
 &#xD;
 De modellen zijn tot stand gekomen op basis van een serie gesprekken met betrokkenen vanuit alle teams van de afdeling Onderwijs in februari en maart 2015.&#xD;
-&#xD;
-Gebleken is dat in de versie van Internet Explorer van de Amsterdamse Digitale Werkplek omgeving dit rapport niet goed getoond wordt. In de Firefox versie op de ADW gaat het wel goed.&#xD;
 &#xD;
 In de 'Model Tree' linksboven staan onder 'Views' alle modellen en platen die gemaakt en in de verschillende terugkoppel-bespreking-presentaties gebruikt zijn. De grote overzichtsplaat heeft als naam 'Overview'.&#xD;
 &#xD;
