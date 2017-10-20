@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BRIN:Onderwijsinstelling"
+    id="0ba3d69d"
+    documentation="Definitie volgens het Gegevenswoordenboek van Schakelpunt OCW (http://www.ib-groep.nl/zakelijk/Schakelpunt_OCW/producten/Modellen/Generieke_modellen/Gegevenswoordenboek.asp): &quot;Een organisatie uitgaande van een rechtspersoon die onderwijs aanbiedt.&quot;&#xD;&#xA;&#xD;&#xA;Attributen: BRIN code, Naam, Denominatie, &#xD;&#xA;&#xD;&#xA;Synoniem: &quot;School&quot;&#xD;&#xA;&#xD;&#xA;Uit het BRIN 'Organisaties' bestand te destilleren door de organisaties te nemen met NAAM_FUNCTIE = &quot;uitvoering&quot;."/>

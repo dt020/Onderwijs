@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BAG:Pand"
+    id="bce03cb1"
+    documentation="Bevat als attributen:&#xD;&#xA;ID&#xD;&#xA;Bouwjaar&#xD;&#xA;Status (bijvoorbeeld 'Bouwvergunning verleend')"/>

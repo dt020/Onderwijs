@@ -1,0 +1,5 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Gebouwen"
+    id="1a90f995"
+    documentation="Per gebouw is van belang:&#xD;&#xA;- de bouwkundige staat&#xD;&#xA;- de indeling&#xD;&#xA;- aantal vierkante meters&#xD;&#xA;- capaciteit&#xD;&#xA;- onderhoud historie"/>

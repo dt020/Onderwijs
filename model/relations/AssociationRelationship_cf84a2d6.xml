@@ -1,0 +1,12 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="cf84a2d6"
+    documentation="Iedere onderwijsinstelling wordt bestuurd door één rechtspersoon.">
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_356abcdb.xml#356abcdb"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_be5bd0ff.xml#be5bd0ff"/>
+</archimate:AssociationRelationship>

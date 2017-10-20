@@ -1,0 +1,5 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="VVE-info naar Schoolwijzer"
+    id="262b9e5e"
+    documentation="Hiervoor is een geautomatiseerde koppeling ingericht: vanuit ELK-VVE ieder half uur een extract naar een bestand dat in de Schoolwijzer backend database ingelezen wordt."/>

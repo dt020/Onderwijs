@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BRIN:Vestiging"
+    id="6bb44355"
+    documentation="Uit het BRIN 'Organisaties' bestand te destilleren door de organisaties te nemen met NAAM_SOORT = &quot;vestiging&quot;."/>

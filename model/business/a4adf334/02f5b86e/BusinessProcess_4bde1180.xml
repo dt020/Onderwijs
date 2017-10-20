@@ -1,0 +1,5 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Leerlingonderzoek"
+    id="4bde1180"
+    documentation="Bij steekproef (representatie van school, een aantal klassen) wordt er voor een aantal leerlingen onderzocht hoe het verzuim afgehandeld is. Voor die leerlingen wordt de informatie in ERISA (Verzuimhistorie van de leerlingen bij gemeente gerapporteerd) vergeleken met de informatie (dezelfde leerlingen met verzuimhistorie) in de schooladministratie."/>

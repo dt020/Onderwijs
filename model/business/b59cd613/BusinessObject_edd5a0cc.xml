@@ -1,0 +1,5 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Jongere"
+    id="edd5a0cc"
+    documentation="Per jongere is van belang&#xD;&#xA;- leeftijd&#xD;&#xA;- een eventuele voorschoolindicatie&#xD;&#xA;- op welke school hij/zij ingeschreven is&#xD;&#xA;- de schoolloopbaan&#xD;&#xA;- inzicht in verzuim (Verzuimhistorie, Behandelingen / acties, Notities van de leerplichtambtenaar, Schorsingen, Verwijderingen)&#xD;&#xA;- indicatie of de jongere werk heeft (+ aantal uren) en/of inkomen&#xD;&#xA;&#xD;&#xA;In het geval van leerlingenvervoer:&#xD;&#xA;- het vervoersadvies van de school&#xD;&#xA;- contactgegevens van leerling en van ouders.&#xD;&#xA;- reisafstand naar de school&#xD;&#xA;- tevredenheid / klachten / meldingen van leerling en ouders"/>

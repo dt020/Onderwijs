@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BAG:Verblijfsobject"
+    id="dc774fd1"
+    documentation="Bevat als attributen:&#xD;&#xA;ID&#xD;&#xA;Gebruiksdoel (bijvoorbeeld 'onderwijsfunctie')&#xD;&#xA;Oppervlakte&#xD;&#xA;Status"/>

@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BAG:Nummeraanduiding"
+    id="b8fd278a"
+    documentation="Bevat als attributen: &#xD;&#xA;ID&#xD;&#xA;Postcode&#xD;&#xA;Huisnummer&#xD;&#xA;Huisletter&#xD;&#xA;Huisnummer toev.&#xD;&#xA;Status"/>

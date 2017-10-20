@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Bestuur van instelling"
+    id="be5bd0ff"
+    documentation="Uit het BRIN 'Organisaties' bestand te destilleren door de organisaties te nemen met NAAM_SOORT = &quot;bestuur van instelling&quot;"/>

@@ -1,0 +1,5 @@
+<archimate:Product
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Reisafstanden"
+    id="2ca3443a"
+    documentation="Op basis van een lijst met BSN's uit ERISA maakt OIS een tabel met loopafstanden vanaf het woonadres naar 8 dichtstbijzijnde basisscholen."/>

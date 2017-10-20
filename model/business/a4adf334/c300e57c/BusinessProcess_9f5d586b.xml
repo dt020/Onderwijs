@@ -1,0 +1,5 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Uitschrijving"
+    id="9f5d586b"
+    documentation="Uitschrijving van een leerling. De uitschrijving komt via het 'uitschrijvingsregister' van DUO als een &quot;Melding van Uitval&quot; in ERISA terecht."/>

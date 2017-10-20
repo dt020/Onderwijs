@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Hoofdvestiging"
+    id="d660971b"
+    documentation="Voorzien van KvK nummer met een vestigingsnummer 0000 (?).&#xD;&#xA;&#xD;&#xA;Bij iedere vestiging registreert de KvK met een SBI-code (van de CBS) ook de hoofdactiviteit en eventueel de nevenactiviteiten. Zie http://www.cbs.nl/NR/rdonlyres/6E8B2D5C-2FC8-4380-A4AB-51D2037DB8DE/0/sbi2008structuurversie2014.pdf&#xD;&#xA;Code 85 is speciaal voor alle vormen van onderwijs."/>

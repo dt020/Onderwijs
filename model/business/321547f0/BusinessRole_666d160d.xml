@@ -1,0 +1,5 @@
+<archimate:BusinessRole
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Leerplichtambtenaar"
+    id="666d160d"
+    documentation="Iedere school heeft een of meer leerplichtambtenaren toegewezen, voor de uitvoering van het toezicht op de leerplicht van de leerlingen op de school. Naast de 'schoolgebonden' leerplichtambtenaren zijn er ook 'woongebonden' leerplichtambtenaren. Zij richten zich met name op niet-ingeschreven of uitgeschreven kinderen en jongeren, en hun ouders."/>

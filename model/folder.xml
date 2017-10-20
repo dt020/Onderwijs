@@ -1,5 +1,28 @@
 <archimate:ArchimateModel
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="(new model)"
-    id="c68269f1-e93e-422f-b546-f525710be264"
-    version="4.0.0"/>
+    name="Domein Onderwijs 020"
+    id="811a44f0"
+    purpose="Deze domeinarchitectuur is bedoeld om overzicht te bieden op en inzicht te bieden in het gemeentelijke Onderwijs domein. De domeinarchitectuur bevat modellen en beschrijvingen van de huidige situatie van begin 2015. Behandeld worden de verschillende taken en verantwoordelijkheden van de afdeling Onderwijs van gemeente Amsterdam, de produkten en diensten van de gemeente aan burgers en scholen, de processen achter de taken, verantwoordelijkheden, produkten en diensten, en de benodigde informatievoorziening en infrastructuur.&#xD;&#xA;&#xD;&#xA;De modellen zijn tot stand gekomen op basis van een serie gesprekken met betrokkenen vanuit alle teams van de afdeling Onderwijs in februari en maart 2015.&#xD;&#xA;&#xD;&#xA;In de 'Model Tree' linksboven staan onder 'Views' alle modellen en platen die gemaakt en in de verschillende terugkoppel-bespreking-presentaties gebruikt zijn. De grote overzichtsplaat heeft als naam 'Overview'.&#xD;&#xA;&#xD;&#xA;Bij iedere plaat kun je middels de functie 'Elements' (rechtsonder) voor ieder element de bijbehorende informatie (voorzover in het model opgenomen) openen.&#xD;&#xA;&#xD;&#xA;In de 'Model Tree' linksboven staan onder 'Model Content' alle componenten gesorteerd per categorie."
+    version="3.1.1">
+  <properties
+      key="Auteur"
+      value="Dirk Temme"/>
+  <properties
+      key="Informatiemanager"
+      value="Silvie Chin"/>
+  <properties
+      key="Datum rapport"
+      value="26-02-2016"/>
+  <properties
+      key="Domein"
+      value="Onderwijs"/>
+  <properties
+      key="Opdrachtgever"
+      value="Orm Muilwijk"/>
+  <properties
+      key="Status overzichtsplaat"
+      value="Vastgesteld in het MT Onderwijs dd 11-05-2015"/>
+  <properties
+      key="Status Informatiemodel"
+      value="Vastgesteld in een 'Eindsessie' op 02-02-2016"/>
+</archimate:ArchimateModel>

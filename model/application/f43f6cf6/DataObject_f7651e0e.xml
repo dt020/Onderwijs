@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Onderwijsorganisatie"
+    id="f7651e0e"
+    documentation="Volgens het Objectmodel Onderwijsregisters ():&#xD;&#xA;Alle bij DUO bekende organisaties / instellingen (waaronder de scholen en hun vestigingen), allemaal voorzien van een NR_ADMINISTRATIE (oftewel een BRINnummer)."/>

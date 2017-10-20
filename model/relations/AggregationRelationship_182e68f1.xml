@@ -1,0 +1,12 @@
+<archimate:AggregationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="182e68f1"
+    documentation="Iedere onderwijslocatie hoort bij één onderwijsinstelling">
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_356abcdb.xml#356abcdb"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_8e5aa6d5.xml#8e5aa6d5"/>
+</archimate:AggregationRelationship>

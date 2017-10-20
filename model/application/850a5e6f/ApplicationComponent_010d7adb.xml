@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="ERISA"
+    id="010d7adb"
+    documentation="Leerlingregistratie-systeem gebouwd op het ePlatform-framework van Logica (op basis van java/xml/jBoss/Oracle). Bereikbaar via https://www.erisa.amsterdam.nl.&#xD;&#xA;&#xD;&#xA;Zie bijvb https://prezi.com/tblwgzyh11v0/erisa-voor-stagiaires/.&#xD;&#xA;&#xD;&#xA;ERISA wordt gevoed door informatie uit de BRP, BRON en het Verzuimloket."/>

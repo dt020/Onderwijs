@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BRIN:Organisatie"
+    id="f7bfe534"
+    documentation="Alle items uit het BRIN ORGANISATIES_[prikdatum].csv bestand. Dus zowel de onderwijsinstellingen met een 4-cijferig BRIN nummer als ook de locaties / vestigingen met 6-cijferig BRIN nummer."/>

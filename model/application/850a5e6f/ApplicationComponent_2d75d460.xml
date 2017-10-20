@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Onderwijs-subsidies portaal"
+    id="2d75d460"
+    documentation="Webapplicatie van GRRR, te bereiken via https://onderwijssubsidies.amsterdam, bedoeld voor scholen en besturen, om de verschillende subsidies te kunnen aanvragen. De applicatie bevat ook webformulieren voor digitale aanvragen. Maar ook een goed overzicht over alle scholen."/>

@@ -1,0 +1,5 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opleidingen"
+    id="80ee9126"
+    documentation="Per opleiding is van belang:&#xD;&#xA;- De vestigingen waar de opleiding gegeven wordt&#xD;&#xA;- Contactpersonen&#xD;&#xA;- Toezichtstatus&#xD;&#xA;- Inspectie-oordelen&#xD;&#xA;- Leerlingaantallen&#xD;&#xA;- Verzuimcijfers&#xD;&#xA;- Afhandeling (registreren / melden) verzuim&#xD;&#xA;- Methodiek registreren verzuim&#xD;&#xA;- Tijdigheid van het melden&#xD;&#xA;- Niet-gemeld verzuim&#xD;&#xA;- Vrijstellingen&#xD;&#xA;- Schorsingen, verwijderingen&#xD;&#xA;- Uitgeschreven leerlingen&#xD;&#xA;- Klasbezetting, telling, bezettingsgraad&#xD;&#xA;- Kwaliteit verzuimregistratie&#xD;&#xA;- Controles&#xD;&#xA;- Resultaten&#xD;&#xA;- Bevindingen&#xD;&#xA;- Beroeps-praktijk-vorming (stages)"/>

@@ -1,0 +1,5 @@
+<archimate:BusinessProcess
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Registreren aanvraag"
+    id="e2374e60"
+    documentation="Het formulier komt binnen bij de Postkamer, afdeling IDB gaat het formulier inscannen, tenminste nieuwe formulieren, niet de herhaalformulieren. Afdeling IDB registreert het formulier in het GRS systeem. Uit GRS komt een dagelijkse export in Excel formaat met alle geregistreerde aanvragen. Dat dagelijkse bestand wordt ingelezen in Papaya.&#xD;&#xA;&#xD;&#xA;De papieren formulieren gaan door naar afdeling Leerlingenvervoer. De wijzigingen op herhaalformulieren worden handmatig in Papaya ingevoerd."/>

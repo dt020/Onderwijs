@@ -1,0 +1,5 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BRIN:Inspectielocatie"
+    id="e6a8b472"
+    documentation="Uit het BRIN 'Organisaties' bestand te destilleren door de organisaties te nemen met NAAM_SOORT = &quot;inspectie locatie&quot;."/>

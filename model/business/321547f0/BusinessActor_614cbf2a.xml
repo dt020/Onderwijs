@@ -1,0 +1,5 @@
+<archimate:BusinessActor
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="RVE OIS"
+    id="614cbf2a"
+    documentation="Volgens http://www.os.amsterdam.nl/over-ois/: &quot;Onderzoek, Informatie en Statistiek (OIS) van de gemeente Amsterdam levert informatie die behulpzaam is bij het ontwikkelen en evalueren van beleid. Zo produceert OIS tal van basisstatistieken, maar wordt ook (opdracht)onderzoek uitgevoerd op het gebied van bijvoorbeeld wonen, leefbaarheid, bevolking, werkgelegenheid, veiligheid, onderwijs en infrastructuur.&quot;&#xD;&#xA;&#xD;&#xA;Ten behoeve van die onderzoeken wordt door afdeling Onderwijs data uit de onderwijssystemen aangeleverd."/>

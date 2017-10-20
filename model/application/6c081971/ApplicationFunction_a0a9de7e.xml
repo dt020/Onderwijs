@@ -1,0 +1,5 @@
+<archimate:ApplicationFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Registratie vrijstelling"
+    id="a0a9de7e"
+    documentation="Het registreren door leerplichtambtenaren van vrijstellingen en vervangende leerplicht voor leerplichtige jongeren. Zie https://duo.nl/zakelijk/Verzuim/Vrijstellingen/Registreren_van_vrijstellingen.asp.&#xD;&#xA;&#xD;&#xA;De leerplichtambtenaren registreren vrijstellingen in Erisa. Team LAS registreert handmatig de vrijstellingen uit Erisa vervolgens in DUO's register van vrijstellingen (zodat DUO's verzuimrapportages daar rekening mee houden). Waarom hebben we geen applicatiekoppeling tussen ERISA en DUO's Vrijstellingenregister hiervoor?"/>

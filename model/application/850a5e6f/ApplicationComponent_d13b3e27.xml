@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Jeugdmonitor"
+    id="d13b3e27"
+    documentation="Systeem voor rapportages, dashboards en andere business intelligence behoeften. Gerealiseerd met SAP BusinessObjects en met een Oracle database. Bereikbaar via https://www.erisa.amsterdam.nl/jeugdmonitor/logon.jsp."/>
