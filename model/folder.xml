@@ -3,7 +3,7 @@
     name="Domein Onderwijs 020"
     id="811a44f0"
     purpose="Deze domeinarchitectuur is bedoeld om overzicht te bieden op en inzicht te bieden in het gemeentelijke Onderwijs domein. De domeinarchitectuur bevat modellen en beschrijvingen van de huidige situatie van begin 2015. Behandeld worden de verschillende taken en verantwoordelijkheden van de afdeling Onderwijs van gemeente Amsterdam, de produkten en diensten van de gemeente aan burgers en scholen, de processen achter de taken, verantwoordelijkheden, produkten en diensten, en de benodigde informatievoorziening en infrastructuur.&#xD;&#xA;&#xD;&#xA;De modellen zijn tot stand gekomen op basis van een serie gesprekken met betrokkenen vanuit alle teams van de afdeling Onderwijs in februari en maart 2015.&#xD;&#xA;&#xD;&#xA;In de 'Model Tree' linksboven staan onder 'Views' alle modellen en platen die gemaakt en in de verschillende terugkoppel-bespreking-presentaties gebruikt zijn. De grote overzichtsplaat heeft als naam 'Overview'.&#xD;&#xA;&#xD;&#xA;Bij iedere plaat kun je middels de functie 'Elements' (rechtsonder) voor ieder element de bijbehorende informatie (voorzover in het model opgenomen) openen.&#xD;&#xA;&#xD;&#xA;In de 'Model Tree' linksboven staan onder 'Model Content' alle componenten gesorteerd per categorie."
-    version="3.1.1">
+    version="4.0.0">
   <properties
       key="Auteur"
       value="Dirk Temme"/>

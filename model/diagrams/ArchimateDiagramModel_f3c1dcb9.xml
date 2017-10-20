@@ -495,6 +495,15 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="4fdc8bfb"
       targetConnections="1974f68c">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="fa7508bd-9e8e-43bd-9fbf-14b221b65da4"
+        source="4fdc8bfb"
+        target="57cfaec8-c201-43a6-a83c-e536f3f2477f">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_3984eea1-1490-4734-8342-b3803f47a89c.xml#3984eea1-1490-4734-8342-b3803f47a89c"/>
+    </sourceConnections>
     <bounds
         x="1044"
         y="12"
@@ -628,6 +637,19 @@
       <archimateElement
           xsi:type="archimate:Goal"
           href="Goal_a015a0ef.xml#a015a0ef"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="57cfaec8-c201-43a6-a83c-e536f3f2477f"
+        targetConnections="fa7508bd-9e8e-43bd-9fbf-14b221b65da4">
+      <bounds
+          x="168"
+          y="312"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessFunction"
+          href="BusinessFunction_993d8be0.xml#993d8be0"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
